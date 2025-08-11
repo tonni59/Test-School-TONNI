@@ -4,6 +4,7 @@ import dotenv from "dotenv";
 import mongoose from "mongoose";
 import path from "path";
 
+
 // ==== Load environment variables ====
 dotenv.config();
 
@@ -11,9 +12,9 @@ dotenv.config();
 import authRoutes from "./routes/auth";
 import examRoutes from "./routes/exam";
 import analyticsRoutes from "./routes/analytics";
-import certificateRoutes from "./routes/certificate";
-import userRoutes from "./routes/user";
-import examStepsRoutes from "./routes/examSteps";
+import certificateRoutes from "./routes/certificate"; // Certificate download
+import userRoutes from "./routes/user"; // User profile (update, get)
+import examStepsRoutes from "./routes/examSteps"; // Step-by-step exam handling
 
 // ==== Initialize App ====
 const app = express();
@@ -21,7 +22,7 @@ const app = express();
 // ==== Middlewares ====
 app.use(
   cors({
-    origin: process.env.FRONTEND_URL || "*", // Allow all origins if not set
+    origin: process.env.FRONTEND_URL || true, // Allow all origins in dev
     credentials: true,
   })
 );
@@ -40,30 +41,7 @@ app.use("/api/exam", examRoutes);
 app.use("/api/analytics", analyticsRoutes);
 app.use("/api/certificate", certificateRoutes);
 app.use("/api/user", userRoutes);
-app.use("/api/exam-steps", examStepsRoutes);
-
-// ==== Root Route (Fixes "Cannot GET /") ====
-app.get("/", (req, res) => {
-  res.send("✅ Backend is running successfully 🚀");
-});
-
-app.use(
-  cors({
-    origin: process.env.FRONTEND_URL || "*", // allow Vercel URL
-    credentials: true,
-  })
-);
-
-
-// ==== Serve Frontend in Production (Optional) ====
-// If you deploy frontend + backend together on Render:
-if (process.env.NODE_ENV === "production") {
-  const frontendPath = path.join(process.cwd(), "frontend", "dist");
-  app.use(express.static(frontendPath));
-  app.get("*", (req, res) => {
-    res.sendFile(path.join(frontendPath, "index.html"));
-  });
-}
+app.use("/api/exam-steps", examStepsRoutes); // ✅ Step-by-step exam routes
 
 // ==== MongoDB Connection ====
 const MONGO_URI = process.env.MONGO_URI || "";
@@ -73,6 +51,7 @@ if (!MONGO_URI) {
 }
 
 const PORT = process.env.PORT || 4000;
+
 
 mongoose
   .connect(MONGO_URI)
