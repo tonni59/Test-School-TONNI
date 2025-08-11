@@ -6,8 +6,8 @@ Deployed with **Render (Backend)** and **Vercel (Frontend)**.
 ---
 
 ## 🌐 Live Demo
-- **Frontend:** [Vercel Link](https://your-frontend.vercel.app)
-- **Backend API:** [Render Link](https://your-backend.onrender.com)
+- **Frontend:** [Vercel Link]([https://your-frontend.vercel.app](https://test-school-tonni.vercel.app))
+- **Backend API:** [Render Link]([https://your-backend.onrender.com](https://test-school-tonni.onrender.com))
 
 ---
 
