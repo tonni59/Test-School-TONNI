@@ -1,0 +1,1586 @@
+[
+  {
+    "competency": "HTML Fundamentals",
+    "level": "A1",
+    "text": "What is the correct HTML tag for the largest heading?",
+    "options": [
+      "h6",
+      "h1",
+      "head",
+      "heading"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "competency": "HTML Fundamentals",
+    "level": "A2",
+    "text": "Which HTML element is used to define the title of a document?",
+    "options": [
+      "<meta>",
+      "<title>",
+      "<body>",
+      "<head>"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "competency": "HTML Fundamentals",
+    "level": "B1",
+    "text": "Which HTML5 attribute specifies a list of pre-defined options for an <input> element?",
+    "options": [
+      "autocomplete",
+      "list",
+      "options",
+      "datalist"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "competency": "HTML Fundamentals",
+    "level": "B2",
+    "text": "What is the purpose of the `aria-label` attribute in HTML?",
+    "options": [
+      "To specify an alternative text for an image.",
+      "To provide a label for a form element.",
+      "To provide an accessible label for screen readers.",
+      "To create a visible tooltip."
+    ],
+    "correctIndex": 2
+  },
+  {
+    "competency": "HTML Fundamentals",
+    "level": "C1",
+    "text": "Which of the following is a key feature of Shadow DOM?",
+    "options": [
+      "It allows JavaScript to directly manipulate any element on the page.",
+      "It provides a way to encapsulate CSS and markup.",
+      "It makes components accessible to all global CSS selectors.",
+      "It defines a global template for all web components."
+    ],
+    "correctIndex": 1
+  },
+  {
+    "competency": "HTML Fundamentals",
+    "level": "C2",
+    "text": "What does the `rel='preload'` attribute on a `<link>` tag do?",
+    "options": [
+      "It tells the browser to fetch a resource only when it's needed.",
+      "It preloads the linked resource with the lowest priority.",
+      "It tells the browser to fetch a resource early in the loading process.",
+      "It prevents the linked resource from being fetched."
+    ],
+    "correctIndex": 2
+  },
+  {
+    "competency": "CSS Fundamentals",
+    "level": "A1",
+    "text": "How do you select an HTML element with the id 'header' in CSS?",
+    "options": [
+      ".header",
+      "#header",
+      "header",
+      "id(header)"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "competency": "CSS Fundamentals",
+    "level": "A2",
+    "text": "Which CSS property is used to change the text color of an element?",
+    "options": [
+      "font-color",
+      "text-color",
+      "color",
+      "background-color"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "competency": "CSS Fundamentals",
+    "level": "B1",
+    "text": "What is the correct CSS syntax to make all paragraph elements bold?",
+    "options": [
+      "p { text-style: bold; }",
+      "p { font-weight: bold; }",
+      "p { font-style: bold; }",
+      "p { font: bold; }"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "competency": "CSS Fundamentals",
+    "level": "B2",
+    "text": "In the Box Model, which property comes after padding and before margin?",
+    "options": [
+      "Content",
+      "Border",
+      "Width",
+      "Height"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "competency": "CSS Fundamentals",
+    "level": "C1",
+    "text": "Which CSS selector has the highest specificity?",
+    "options": [
+      "An ID selector",
+      "A class selector",
+      "An element selector",
+      "An inline style"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "competency": "CSS Fundamentals",
+    "level": "C2",
+    "text": "What does the `::before` pseudo-element do?",
+    "options": [
+      "It selects the first child of an element.",
+      "It inserts content after the content of an element.",
+      "It selects the last child of an element.",
+      "It inserts content before the content of an element."
+    ],
+    "correctIndex": 3
+  },
+  {
+    "competency": "JavaScript Core Concepts",
+    "level": "A1",
+    "text": "How do you create a variable in JavaScript?",
+    "options": [
+      "variable name = value;",
+      "var name = value;",
+      "v name = value;",
+      "create name = value;"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "competency": "JavaScript Core Concepts",
+    "level": "A2",
+    "text": "What is the correct way to write an `if` statement in JavaScript?",
+    "options": [
+      "if (i == 5)",
+      "if i == 5 then",
+      "if i = 5",
+      "if i = 5 then"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "competency": "JavaScript Core Concepts",
+    "level": "B1",
+    "text": "What is the output of `console.log(typeof null)`?",
+    "options": [
+      "\"null\"",
+      "\"object\"",
+      "\"undefined\"",
+      "\"number\""
+    ],
+    "correctIndex": 1
+  },
+  {
+    "competency": "JavaScript Core Concepts",
+    "level": "B2",
+    "text": "What is hoisting in JavaScript?",
+    "options": [
+      "A technique to increase performance.",
+      "The process of moving variable and function declarations to the top of their scope.",
+      "A way to prevent variable redeclaration.",
+      "The process of converting a number to a string."
+    ],
+    "correctIndex": 1
+  },
+  {
+    "competency": "JavaScript Core Concepts",
+    "level": "C1",
+    "text": "What is the difference between `let` and `const`?",
+    "options": [
+      "`let` is block-scoped, `const` is globally scoped.",
+      "`let` can be reassigned, `const` cannot.",
+      "`let` is a primitive, `const` is an object.",
+      "`let` can be used without initialization, `const` cannot."
+    ],
+    "correctIndex": 1
+  },
+  {
+    "competency": "JavaScript Core Concepts",
+    "level": "C2",
+    "text": "What is a closure in JavaScript?",
+    "options": [
+      "A way to close a function after it runs.",
+      "A function having access to the parent scope, even after the parent function has closed.",
+      "An object that represents the completion or failure of an asynchronous operation.",
+      "A function that returns another function."
+    ],
+    "correctIndex": 1
+  },
+  {
+    "competency": "Advanced HTML & Semantics",
+    "level": "A1",
+    "text": "Which HTML element is used to define an important text?",
+    "options": [
+      "<i>",
+      "<strong>",
+      "<b>",
+      "<em>"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "competency": "Advanced HTML & Semantics",
+    "level": "A2",
+    "text": "Which HTML5 element is used to draw graphics?",
+    "options": [
+      "<graphics>",
+      "<svg>",
+      "<canvas>",
+      "<draw>"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "competency": "Advanced HTML & Semantics",
+    "level": "B1",
+    "text": "Which semantic element should be used for a block of navigation links?",
+    "options": [
+      "<header>",
+      "<footer>",
+      "<section>",
+      "<nav>"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "competency": "Advanced HTML & Semantics",
+    "level": "B2",
+    "text": "What is the purpose of the `<picture>` element?",
+    "options": [
+      "To embed a picture from an external source.",
+      "To provide a caption for an image.",
+      "To provide different image sources for different screen sizes or resolutions.",
+      "To compress images for faster loading."
+    ],
+    "correctIndex": 2
+  },
+  {
+    "competency": "Advanced HTML & Semantics",
+    "level": "C1",
+    "text": "What is a Web Component?",
+    "options": [
+      "A set of web technologies that allow you to create reusable custom elements.",
+      "A framework like React or Vue.",
+      "A library for animating elements on a webpage.",
+      "A browser's built-in debugging tool."
+    ],
+    "correctIndex": 0
+  },
+  {
+    "competency": "Advanced HTML & Semantics",
+    "level": "C2",
+    "text": "Which HTML attribute prevents form data from being sent to the server?",
+    "options": [
+      "disabled",
+      "novalidate",
+      "formnovalidate",
+      "readonly"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "competency": "Advanced CSS & Layouts (Flexbox, Grid)",
+    "level": "A1",
+    "text": "Which CSS property is used to create a flexible container?",
+    "options": [
+      "display: block;",
+      "display: flex;",
+      "display: grid;",
+      "display: inline;"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "competency": "Advanced CSS & Layouts (Flexbox, Grid)",
+    "level": "A2",
+    "text": "How do you align items in the center of a flexbox container?",
+    "options": [
+      "align-items: center;",
+      "justify-content: center;",
+      "center-items: center;",
+      "both align-items and justify-content"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "competency": "Advanced CSS & Layouts (Flexbox, Grid)",
+    "level": "B1",
+    "text": "Which property defines the number of columns in a CSS Grid layout?",
+    "options": [
+      "grid-template-areas",
+      "grid-template-columns",
+      "grid-gap",
+      "grid-columns"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "competency": "Advanced CSS & Layouts (Flexbox, Grid)",
+    "level": "B2",
+    "text": "What does `flex-grow: 1;` do in a flex container?",
+    "options": [
+      "It makes the item grow to take up the full container width.",
+      "It allows the item to grow, taking up available space.",
+      "It shrinks the item if necessary.",
+      "It prevents the item from growing."
+    ],
+    "correctIndex": 1
+  },
+  {
+    "competency": "Advanced CSS & Layouts (Flexbox, Grid)",
+    "level": "C1",
+    "text": "What is the purpose of the `fr` unit in CSS Grid?",
+    "options": [
+      "It represents a fixed fraction of the container's width.",
+      "It represents a fractional unit of the available space in the grid container.",
+      "It stands for 'fractional row'.",
+      "It is a unit of measurement equal to the font-size of the element."
+    ],
+    "correctIndex": 1
+  },
+  {
+    "competency": "Advanced CSS & Layouts (Flexbox, Grid)",
+    "level": "C2",
+    "text": "How can you use CSS variables (custom properties)?",
+    "options": [
+      "By defining them with `var(--variable-name: value)`.",
+      "By using the `@custom-property` rule.",
+      "By defining them with `--variable-name: value` and using them with `var(--variable-name)`.",
+      "By defining them with `$` and using them with `var($variable-name)`."
+    ],
+    "correctIndex": 2
+  },
+  {
+    "competency": "JavaScript Asynchronicity (Promises, Async/Await)",
+    "level": "A1",
+    "text": "What is the main purpose of asynchronous JavaScript?",
+    "options": [
+      "To run code sequentially.",
+      "To perform non-blocking operations.",
+      "To execute code faster.",
+      "To prevent all code from running at once."
+    ],
+    "correctIndex": 1
+  },
+  {
+    "competency": "JavaScript Asynchronicity (Promises, Async/Await)",
+    "level": "A2",
+    "text": "Which function is used to schedule a function to run after a certain delay?",
+    "options": [
+      "setTimeout()",
+      "setInterval()",
+      "delay()",
+      "runAfter()"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "competency": "JavaScript Asynchronicity (Promises, Async/Await)",
+    "level": "B1",
+    "text": "Which of the following is the correct syntax for a JavaScript Promise?",
+    "options": [
+      "new Promise()",
+      "Promise.new()",
+      "promise.create()",
+      "new Promise.create()"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "competency": "JavaScript Asynchronicity (Promises, Async/Await)",
+    "level": "B2",
+    "text": "What is the purpose of the `.then()` method on a Promise?",
+    "options": [
+      "To handle the error if the Promise is rejected.",
+      "To execute code before the Promise starts.",
+      "To handle the result when the Promise is fulfilled.",
+      "To stop the Promise from running."
+    ],
+    "correctIndex": 2
+  },
+  {
+    "competency": "JavaScript Asynchronicity (Promises, Async/Await)",
+    "level": "C1",
+    "text": "What is the main benefit of using `async/await` over traditional `.then()` chaining?",
+    "options": [
+      "It makes the code run faster.",
+      "It avoids the need for a try/catch block.",
+      "It provides a more synchronous-looking, readable syntax for asynchronous code.",
+      "It can handle more promises at the same time."
+    ],
+    "correctIndex": 2
+  },
+  {
+    "competency": "JavaScript Asynchronicity (Promises, Async/Await)",
+    "level": "C2",
+    "text": "How do you handle multiple promises running in parallel and wait for all of them to resolve?",
+    "options": [
+      "Promise.any()",
+      "Promise.race()",
+      "Promise.all()",
+      "Promise.allSettled()"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "competency": "Node.js & Express.js Basics",
+    "level": "A1",
+    "text": "What is Node.js primarily used for?",
+    "options": [
+      "To build front-end applications.",
+      "To run JavaScript on the server-side.",
+      "To manage databases.",
+      "To style webpages."
+    ],
+    "correctIndex": 1
+  },
+  {
+    "competency": "Node.js & Express.js Basics",
+    "level": "A2",
+    "text": "How do you import a module in Node.js using ES6 syntax?",
+    "options": [
+      "require('module-name');",
+      "import 'module-name';",
+      "import { module } from 'module-name';",
+      "export default module;"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "competency": "Node.js & Express.js Basics",
+    "level": "B1",
+    "text": "What is the purpose of `npm`?",
+    "options": [
+      "A language for building web pages.",
+      "A package manager for Node.js.",
+      "A tool for creating servers.",
+      "A framework for front-end development."
+    ],
+    "correctIndex": 1
+  },
+  {
+    "competency": "Node.js & Express.js Basics",
+    "level": "B2",
+    "text": "Which Express.js method is used to define a route that responds to a GET request?",
+    "options": [
+      "app.post()",
+      "app.get()",
+      "app.route()",
+      "app.listen()"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "competency": "Node.js & Express.js Basics",
+    "level": "C1",
+    "text": "What is a 'middleware' in Express.js?",
+    "options": [
+      "A database management system.",
+      "A function that handles errors in the server.",
+      "A function that has access to the request and response objects and can modify them.",
+      "A front-end library."
+    ],
+    "correctIndex": 2
+  },
+  {
+    "competency": "Node.js & Express.js Basics",
+    "level": "C2",
+    "text": "What is the purpose of the `process.env` object in Node.js?",
+    "options": [
+      "To access environment variables.",
+      "To manage memory usage.",
+      "To handle file system operations.",
+      "To control the process's lifecycle."
+    ],
+    "correctIndex": 0
+  },
+  {
+    "competency": "React.js Fundamentals",
+    "level": "A1",
+    "text": "What is a React component?",
+    "options": [
+      "A HTML element.",
+      "A plain JavaScript function or class that returns JSX.",
+      "A CSS file.",
+      "A database table."
+    ],
+    "correctIndex": 1
+  },
+  {
+    "competency": "React.js Fundamentals",
+    "level": "A2",
+    "text": "What does JSX stand for?",
+    "options": [
+      "JavaScript XML",
+      "JavaScript eXtended",
+      "JavaScript X",
+      "JSON XML"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "competency": "React.js Fundamentals",
+    "level": "B1",
+    "text": "What is the purpose of `useState` hook in React?",
+    "options": [
+      "To handle side effects in a component.",
+      "To manage state within a functional component.",
+      "To fetch data from an API.",
+      "To create a new component."
+    ],
+    "correctIndex": 1
+  },
+  {
+    "competency": "React.js Fundamentals",
+    "level": "B2",
+    "text": "In React, what are 'props'?",
+    "options": [
+      "A special type of state variable.",
+      "A way to pass data from a child component to a parent component.",
+      "Arguments passed into React components.",
+      "A method for handling user input."
+    ],
+    "correctIndex": 2
+  },
+  {
+    "competency": "React.js Fundamentals",
+    "level": "C1",
+    "text": "What is the 'virtual DOM' in React?",
+    "options": [
+      "A database that stores component data.",
+      "A copy of the HTML DOM that is rendered to the screen.",
+      "A lightweight copy of the real DOM that React uses to improve rendering performance.",
+      "A server-side rendering technique."
+    ],
+    "correctIndex": 2
+  },
+  {
+    "competency": "React.js Fundamentals",
+    "level": "C2",
+    "text": "What is the purpose of the `useEffect` hook with an empty dependency array (`[]`)?",
+    "options": [
+      "It runs on every render of the component.",
+      "It runs only when the component unmounts.",
+      "It runs only once after the component is first mounted.",
+      "It runs whenever any state or prop changes."
+    ],
+    "correctIndex": 2
+  },
+  {
+    "competency": "CSS Pre-processors (Sass/SCSS)",
+    "level": "A1",
+    "text": "What does Sass stand for?",
+    "options": [
+      "Syntactically Awesome Stylesheets",
+      "Stylish and Simple Stylesheets",
+      "Standard Application Stylesheets",
+      "Static Style Sheets"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "competency": "CSS Pre-processors (Sass/SCSS)",
+    "level": "A2",
+    "text": "What is the main benefit of using a CSS pre-processor like Sass?",
+    "options": [
+      "It makes CSS files smaller.",
+      "It allows you to use variables, nesting, and mixins in CSS.",
+      "It automatically minifies CSS.",
+      "It is faster for browsers to render."
+    ],
+    "correctIndex": 1
+  },
+  {
+    "competency": "CSS Pre-processors (Sass/SCSS)",
+    "level": "B1",
+    "text": "How do you define a variable in SCSS?",
+    "options": [
+      "var $variable-name: value;",
+      "--variable-name: value;",
+      "$variable-name: value;",
+      "let variable-name = value;"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "competency": "CSS Pre-processors (Sass/SCSS)",
+    "level": "B2",
+    "text": "What is a 'mixin' in Sass?",
+    "options": [
+      "A special type of function that returns a value.",
+      "A way to include a complete block of styles in another rule.",
+      "A function that combines two selectors.",
+      "A Sass variable."
+    ],
+    "correctIndex": 1
+  },
+  {
+    "competency": "CSS Pre-processors (Sass/SCSS)",
+    "level": "C1",
+    "text": "What is the difference between `@mixin` and `@extend`?",
+    "options": [
+      "`@mixin` is for functions, `@extend` is for variables.",
+      "`@mixin` creates a reusable group of styles, `@extend` inherits styles from another selector.",
+      "`@mixin` is for block-level elements, `@extend` is for inline elements.",
+      "They are two different names for the same feature."
+    ],
+    "correctIndex": 1
+  },
+  {
+    "competency": "CSS Pre-processors (Sass/SCSS)",
+    "level": "C2",
+    "text": "What is a Sass 'placeholder selector' (`%`) primarily used for?",
+    "options": [
+      "To create styles that can be reused with `@extend` but won't be compiled to CSS on their own.",
+      "To create a placeholder for a variable.",
+      "To define a default value for a mixin.",
+      "To select all elements with the same class."
+    ],
+    "correctIndex": 0
+  },
+  {
+    "competency": "Front-end State Management (Redux/Context)",
+    "level": "A1",
+    "text": "Why do we need state management in a large front-end application?",
+    "options": [
+      "To make the application slower.",
+      "To centralize and manage data that is shared across many components.",
+      "To prevent components from communicating.",
+      "To replace the browser's local storage."
+    ],
+    "correctIndex": 1
+  },
+  {
+    "competency": "Front-end State Management (Redux/Context)",
+    "level": "A2",
+    "text": "In Redux, what is an 'action'?",
+    "options": [
+      "A plain JavaScript object that describes what happened.",
+      "A function that modifies the state directly.",
+      "A central store that holds all application state.",
+      "A component that dispatches events."
+    ],
+    "correctIndex": 0
+  },
+  {
+    "competency": "Front-end State Management (Redux/Context)",
+    "level": "B1",
+    "text": "What is a 'reducer' in Redux?",
+    "options": [
+      "A function that dispatches actions.",
+      "A function that reduces the size of the state.",
+      "A function that takes the current state and an action, and returns a new state.",
+      "A tool for debugging state changes."
+    ],
+    "correctIndex": 2
+  },
+  {
+    "competency": "Front-end State Management (Redux/Context)",
+    "level": "B2",
+    "text": "In React's Context API, what is the purpose of the `Provider`?",
+    "options": [
+      "To consume the context data.",
+      "To define the initial state of the context.",
+      "To provide the context value to its child components.",
+      "To subscribe to context changes."
+    ],
+    "correctIndex": 2
+  },
+  {
+    "competency": "Front-end State Management (Redux/Context)",
+    "level": "C1",
+    "text": "What is the concept of 'immutability' in Redux?",
+    "options": [
+      "State can only be modified with a reducer.",
+      "State objects should never be changed directly; a new state object must be created.",
+      "Reducers must be pure functions.",
+      "The state can only be read, not written to."
+    ],
+    "correctIndex": 1
+  },
+  {
+    "competency": "Front-end State Management (Redux/Context)",
+    "level": "C2",
+    "text": "What is the purpose of Redux Thunk middleware?",
+    "options": [
+      "To handle synchronous actions in Redux.",
+      "To prevent direct state mutations.",
+      "To allow Redux to handle asynchronous actions.",
+      "To log all actions to the console."
+    ],
+    "correctIndex": 2
+  },
+  {
+    "competency": "RESTful APIs & HTTP",
+    "level": "A1",
+    "text": "Which HTTP method is used to retrieve data from a server?",
+    "options": [
+      "POST",
+      "PUT",
+      "GET",
+      "DELETE"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "competency": "RESTful APIs & HTTP",
+    "level": "A2",
+    "text": "What does a `200 OK` HTTP status code signify?",
+    "options": [
+      "The request failed.",
+      "The request was successful.",
+      "The server is unavailable.",
+      "The resource was not found."
+    ],
+    "correctIndex": 1
+  },
+  {
+    "competency": "RESTful APIs & HTTP",
+    "level": "B1",
+    "text": "Which HTTP method is typically used to create a new resource on the server?",
+    "options": [
+      "GET",
+      "PUT",
+      "POST",
+      "PATCH"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "competency": "RESTful APIs & HTTP",
+    "level": "B2",
+    "text": "What is the difference between a PUT and a PATCH request?",
+    "options": [
+      "PUT is for creating, PATCH is for updating.",
+      "PUT replaces the entire resource, while PATCH applies a partial update.",
+      "PUT is idempotent, PATCH is not.",
+      "PUT is for public APIs, PATCH is for private APIs."
+    ],
+    "correctIndex": 1
+  },
+  {
+    "competency": "RESTful APIs & HTTP",
+    "level": "C1",
+    "text": "What does 'idempotence' mean in the context of an HTTP method?",
+    "options": [
+      "Sending the same request multiple times has the same effect as a single request.",
+      "The request can only be sent once.",
+      "The request cannot be cached.",
+      "The request must be authorized."
+    ],
+    "correctIndex": 0
+  },
+  {
+    "competency": "RESTful APIs & HTTP",
+    "level": "C2",
+    "text": "Which HTTP status code is used to indicate a resource has been permanently moved?",
+    "options": [
+      "301 Moved Permanently",
+      "302 Found",
+      "404 Not Found",
+      "403 Forbidden"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "competency": "Database Fundamentals (SQL)",
+    "level": "A1",
+    "text": "What does SQL stand for?",
+    "options": [
+      "Simple Query Language",
+      "Structured Query Language",
+      "Sequential Query Language",
+      "Server Query Language"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "competency": "Database Fundamentals (SQL)",
+    "level": "A2",
+    "text": "Which SQL statement is used to extract data from a database?",
+    "options": [
+      "UPDATE",
+      "GET",
+      "SELECT",
+      "EXTRACT"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "competency": "Database Fundamentals (SQL)",
+    "level": "B1",
+    "text": "Which SQL clause is used to filter records based on a specified condition?",
+    "options": [
+      "SELECT",
+      "FROM",
+      "WHERE",
+      "ORDER BY"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "competency": "Database Fundamentals (SQL)",
+    "level": "B2",
+    "text": "What is a 'primary key' in a relational database?",
+    "options": [
+      "A key that is used to join tables together.",
+      "A field that uniquely identifies each record in a table.",
+      "A key used for encryption.",
+      "A field that stores a foreign key."
+    ],
+    "correctIndex": 1
+  },
+  {
+    "competency": "Database Fundamentals (SQL)",
+    "level": "C1",
+    "text": "What is the purpose of a 'JOIN' clause in SQL?",
+    "options": [
+      "To combine data from two or more rows of a single table.",
+      "To combine data from two or more tables based on a related column.",
+      "To insert data into two tables at once.",
+      "To create a new table from existing tables."
+    ],
+    "correctIndex": 1
+  },
+  {
+    "competency": "Database Fundamentals (SQL)",
+    "level": "C2",
+    "text": "What does a 'transaction' in SQL ensure?",
+    "options": [
+      "That a set of operations are all completed successfully or none of them are.",
+      "That a query is executed as quickly as possible.",
+      "That a user has permission to access the data.",
+      "That data is encrypted before being stored."
+    ],
+    "correctIndex": 0
+  },
+  {
+    "competency": "NoSQL Databases (MongoDB)",
+    "level": "A1",
+    "text": "What is the primary data structure used by MongoDB?",
+    "options": [
+      "Tables",
+      "Documents",
+      "Graphs",
+      "Nodes"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "competency": "NoSQL Databases (MongoDB)",
+    "level": "A2",
+    "text": "In MongoDB, what is a 'collection' analogous to in a relational database?",
+    "options": [
+      "A row",
+      "A table",
+      "A column",
+      "A primary key"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "competency": "NoSQL Databases (MongoDB)",
+    "level": "B1",
+    "text": "What does the `_id` field in a MongoDB document represent?",
+    "options": [
+      "An optional field for a document's title.",
+      "The primary key for the document, unique within the collection.",
+      "The timestamp of the document's creation.",
+      "A foreign key to another collection."
+    ],
+    "correctIndex": 1
+  },
+  {
+    "competency": "NoSQL Databases (MongoDB)",
+    "level": "B2",
+    "text": "Which method is used to find documents in a MongoDB collection?",
+    "options": [
+      "db.collection.search()",
+      "db.collection.find()",
+      "db.collection.get()",
+      "db.collection.query()"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "competency": "NoSQL Databases (MongoDB)",
+    "level": "C1",
+    "text": "What is an 'index' in MongoDB used for?",
+    "options": [
+      "To group documents together.",
+      "To enforce a schema on a collection.",
+      "To allow for faster query execution by providing an efficient way to traverse data.",
+      "To create a reference to a document in another collection."
+    ],
+    "correctIndex": 2
+  },
+  {
+    "competency": "NoSQL Databases (MongoDB)",
+    "level": "C2",
+    "text": "What is an 'aggregation pipeline' in MongoDB?",
+    "options": [
+      "A sequence of data processing stages to transform documents and calculate aggregated results.",
+      "A way to create a backup of the database.",
+      "A method for joining two collections together.",
+      "A tool for creating indexes on a collection."
+    ],
+    "correctIndex": 0
+  },
+  {
+    "competency": "Authentication & Authorization",
+    "level": "A1",
+    "text": "What is 'authentication'?",
+    "options": [
+      "The process of verifying who a user is.",
+      "The process of granting a user access to a resource.",
+      "The process of creating a new user account.",
+      "The process of storing user data."
+    ],
+    "correctIndex": 0
+  },
+  {
+    "competency": "Authentication & Authorization",
+    "level": "A2",
+    "text": "What is 'authorization'?",
+    "options": [
+      "The process of verifying who a user is.",
+      "The process of granting a user access to a resource.",
+      "The process of creating a new user account.",
+      "The process of storing user data."
+    ],
+    "correctIndex": 1
+  },
+  {
+    "competency": "Authentication & Authorization",
+    "level": "B1",
+    "text": "What is a JSON Web Token (JWT)?",
+    "options": [
+      "A special type of password.",
+      "A compact, URL-safe means of representing claims between two parties.",
+      "A database record.",
+      "A server-side session."
+    ],
+    "correctIndex": 1
+  },
+  {
+    "competency": "Authentication & Authorization",
+    "level": "B2",
+    "text": "Which component of a JWT contains the claims (user data)?",
+    "options": [
+      "Header",
+      "Payload",
+      "Signature",
+      "Footer"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "competency": "Authentication & Authorization",
+    "level": "C1",
+    "text": "What is the main benefit of using a refresh token?",
+    "options": [
+      "It allows the user to log in faster.",
+      "It is used to retrieve a new, short-lived access token without requiring the user to re-authenticate.",
+      "It provides extra security against SQL injection attacks.",
+      "It is used for storing user session data on the server."
+    ],
+    "correctIndex": 1
+  },
+  {
+    "competency": "Authentication & Authorization",
+    "level": "C2",
+    "text": "What is a key difference between OAuth 2.0 and JWT?",
+    "options": [
+      "They are the same thing.",
+      "OAuth 2.0 is an authorization protocol, while JWT is a token format.",
+      "JWT is a protocol, while OAuth 2.0 is a token format.",
+      "OAuth 2.0 is for authentication, JWT is for authorization."
+    ],
+    "correctIndex": 1
+  },
+  {
+    "competency": "Server-side Rendering & Next.js",
+    "level": "A1",
+    "text": "What is Server-Side Rendering (SSR)?",
+    "options": [
+      "Rendering pages on the client's browser.",
+      "Rendering pages on the server and sending the complete HTML to the browser.",
+      "Rendering pages on both the server and the client.",
+      "Rendering pages without any JavaScript."
+    ],
+    "correctIndex": 1
+  },
+  {
+    "competency": "Server-side Rendering & Next.js",
+    "level": "A2",
+    "text": "What is the primary benefit of using SSR?",
+    "options": [
+      "Improved search engine optimization (SEO) and faster initial page load.",
+      "Reduced server costs.",
+      "Easier development.",
+      "Improved accessibility for screen readers."
+    ],
+    "correctIndex": 0
+  },
+  {
+    "competency": "Server-side Rendering & Next.js",
+    "level": "B1",
+    "text": "What is Next.js primarily used for?",
+    "options": [
+      "Building a mobile application.",
+      "Building a single-page application (SPA).",
+      "A React framework for building server-side rendered and static websites.",
+      "A state management library."
+    ],
+    "correctIndex": 2
+  },
+  {
+    "competency": "Server-side Rendering & Next.js",
+    "level": "B2",
+    "text": "What is the Next.js `getStaticProps` function used for?",
+    "options": [
+      "Fetching data on every request to a page.",
+      "Fetching data at build time for a static page.",
+      "Fetching data on the client side.",
+      "Fetching data from the browser's local storage."
+    ],
+    "correctIndex": 1
+  },
+  {
+    "competency": "Server-side Rendering & Next.js",
+    "level": "C1",
+    "text": "What is the difference between `getServerSideProps` and `getStaticProps`?",
+    "options": [
+      "`getServerSideProps` runs at build time, `getStaticProps` runs on every request.",
+      "`getServerSideProps` runs on every request, `getStaticProps` runs at build time.",
+      "They are the same function.",
+      "One is for dynamic routes, the other is for static routes."
+    ],
+    "correctIndex": 1
+  },
+  {
+    "competency": "Server-side Rendering & Next.js",
+    "level": "C2",
+    "text": "What is the concept of 'hydration' in SSR frameworks like Next.js?",
+    "options": [
+      "The process of fetching and displaying data on the server.",
+      "The process where client-side JavaScript attaches event listeners to the server-rendered HTML.",
+      "The process of adding water to the server to prevent overheating.",
+      "The process of creating static HTML files."
+    ],
+    "correctIndex": 1
+  },
+  {
+    "competency": "Web Security (XSS, CSRF)",
+    "level": "A1",
+    "text": "What is the main goal of a Cross-Site Scripting (XSS) attack?",
+    "options": [
+      "To gain access to the server's database.",
+      "To inject malicious scripts into a web page viewed by other users.",
+      "To prevent a user from logging in.",
+      "To steal the user's password from the database."
+    ],
+    "correctIndex": 1
+  },
+  {
+    "competency": "Web Security (XSS, CSRF)",
+    "level": "A2",
+    "text": "What is a common way to prevent XSS attacks?",
+    "options": [
+      "Using HTTPS.",
+      "Sanitizing and validating user input before displaying it.",
+      "Using a strong password.",
+      "Storing data in a NoSQL database."
+    ],
+    "correctIndex": 1
+  },
+  {
+    "competency": "Web Security (XSS, CSRF)",
+    "level": "B1",
+    "text": "What does a Cross-Site Request Forgery (CSRF) attack do?",
+    "options": [
+      "It tricks an authenticated user into unknowingly submitting a malicious request.",
+      "It injects malicious scripts into a web page.",
+      "It steals data from the server's database.",
+      "It uses brute force to guess passwords."
+    ],
+    "correctIndex": 0
+  },
+  {
+    "competency": "Web Security (XSS, CSRF)",
+    "level": "B2",
+    "text": "How can you mitigate CSRF attacks?",
+    "options": [
+      "By using a Content Security Policy (CSP).",
+      "By sanitizing user input.",
+      "By using CSRF tokens in requests.",
+      "By using HTTPS."
+    ],
+    "correctIndex": 2
+  },
+  {
+    "competency": "Web Security (XSS, CSRF)",
+    "level": "C1",
+    "text": "What is the purpose of a Content Security Policy (CSP)?",
+    "options": [
+      "To prevent the server from being attacked.",
+      "To define a security policy for the database.",
+      "To mitigate XSS attacks by specifying which dynamic resources are allowed to load.",
+      "To encrypt all traffic between the client and server."
+    ],
+    "correctIndex": 2
+  },
+  {
+    "competency": "Web Security (XSS, CSRF)",
+    "level": "C2",
+    "text": "What is a 'man-in-the-middle' attack?",
+    "options": [
+      "An attack where a third party intercepts communication between two systems.",
+      "An attack on the database.",
+      "An attack that exploits a client-side vulnerability.",
+      "An attack that uses a malicious script."
+    ],
+    "correctIndex": 0
+  },
+  {
+    "competency": "Testing (Unit, Integration)",
+    "level": "A1",
+    "text": "What is 'unit testing'?",
+    "options": [
+      "Testing the entire application at once.",
+      "Testing individual, isolated units of code (like a function or a method).",
+      "Testing how different parts of the application work together.",
+      "Testing the user interface."
+    ],
+    "correctIndex": 1
+  },
+  {
+    "competency": "Testing (Unit, Integration)",
+    "level": "A2",
+    "text": "Which of the following is a popular JavaScript testing framework?",
+    "options": [
+      "React",
+      "Express",
+      "Jest",
+      "Webpack"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "competency": "Testing (Unit, Integration)",
+    "level": "B1",
+    "text": "What is 'integration testing'?",
+    "options": [
+      "Testing a single function in isolation.",
+      "Testing how different parts of the application work together.",
+      "Testing the UI from a user's perspective.",
+      "Testing the performance of the application."
+    ],
+    "correctIndex": 1
+  },
+  {
+    "competency": "Testing (Unit, Integration)",
+    "level": "B2",
+    "text": "What is the purpose of a 'mock' or 'spy' in testing?",
+    "options": [
+      "To test an entire component with its dependencies.",
+      "To track how a function is called without affecting its implementation.",
+      "To test the server-side logic.",
+      "To test the database."
+    ],
+    "correctIndex": 1
+  },
+  {
+    "competency": "Testing (Unit, Integration)",
+    "level": "C1",
+    "text": "What is 'end-to-end' (E2E) testing?",
+    "options": [
+      "Testing a small unit of code.",
+      "Testing the flow of the application from a user's perspective, simulating user actions.",
+      "Testing the API endpoints.",
+      "Testing the application's database connections."
+    ],
+    "correctIndex": 1
+  },
+  {
+    "competency": "Testing (Unit, Integration)",
+    "level": "C2",
+    "text": "What is 'Test-Driven Development' (TDD)?",
+    "options": [
+      "Writing tests after the code is complete.",
+      "A development process where you write failing tests before writing the code to make them pass.",
+      "A process of testing only the main features of an application.",
+      "A process of testing a feature after a user finds a bug."
+    ],
+    "correctIndex": 1
+  },
+  {
+    "competency": "Version Control (Git)",
+    "level": "A1",
+    "text": "What is the primary function of Git?",
+    "options": [
+      "To deploy websites.",
+      "To run JavaScript code on the server.",
+      "To manage source code and track changes over time.",
+      "To design user interfaces."
+    ],
+    "correctIndex": 2
+  },
+  {
+    "competency": "Version Control (Git)",
+    "level": "A2",
+    "text": "How do you stage changes for a commit in Git?",
+    "options": [
+      "git commit",
+      "git add .",
+      "git push",
+      "git status"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "competency": "Version Control (Git)",
+    "level": "B1",
+    "text": "What command is used to save changes to the local repository?",
+    "options": [
+      "git add",
+      "git push",
+      "git commit",
+      "git log"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "competency": "Version Control (Git)",
+    "level": "B2",
+    "text": "What is a 'branch' in Git?",
+    "options": [
+      "A folder in the repository.",
+      "A command to merge code.",
+      "A separate line of development.",
+      "A file that contains a list of changes."
+    ],
+    "correctIndex": 2
+  },
+  {
+    "competency": "Version Control (Git)",
+    "level": "C1",
+    "text": "What is the purpose of `git rebase`?",
+    "options": [
+      "To merge a branch into another branch.",
+      "To undo the last commit.",
+      "To move or combine a sequence of commits to a new base commit.",
+      "To push changes to a remote repository."
+    ],
+    "correctIndex": 2
+  },
+  {
+    "competency": "Version Control (Git)",
+    "level": "C2",
+    "text": "What is the difference between `git merge` and `git rebase`?",
+    "options": [
+      "`merge` is for local branches, `rebase` is for remote branches.",
+      "`merge` creates a new merge commit, preserving history. `rebase` rewrites history by moving commits.",
+      "`merge` is an old command, `rebase` is a new one.",
+      "They are the same command with different names."
+    ],
+    "correctIndex": 1
+  },
+  {
+    "competency": "Deployment (CI/CD, Heroku/Vercel)",
+    "level": "A1",
+    "text": "What does CI/CD stand for?",
+    "options": [
+      "Continuous Implementation / Continuous Deployment",
+      "Continuous Integration / Continuous Development",
+      "Continuous Integration / Continuous Deployment",
+      "Continuous Improvement / Continuous Deployment"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "competency": "Deployment (CI/CD, Heroku/Vercel)",
+    "level": "A2",
+    "text": "What is the primary benefit of a CI/CD pipeline?",
+    "options": [
+      "It allows you to manually deploy code.",
+      "It automates the process of building, testing, and deploying an application.",
+      "It prevents developers from committing code.",
+      "It makes the application run faster."
+    ],
+    "correctIndex": 1
+  },
+  {
+    "competency": "Deployment (CI/CD, Heroku/Vercel)",
+    "level": "B1",
+    "text": "What is a 'build process' in a CI/CD pipeline?",
+    "options": [
+      "The process of creating a new Git repository.",
+      "The process of creating a database.",
+      "The process of converting source code into a runnable application.",
+      "The process of writing documentation."
+    ],
+    "correctIndex": 2
+  },
+  {
+    "competency": "Deployment (CI/CD, Heroku/Vercel)",
+    "level": "B2",
+    "text": "Which of the following is a common platform for hosting a static front-end application?",
+    "options": [
+      "MongoDB",
+      "Express.js",
+      "Vercel",
+      "Node.js"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "competency": "Deployment (CI/CD, Heroku/Vercel)",
+    "level": "C1",
+    "text": "What is a 'Docker container'?",
+    "options": [
+      "A lightweight, standalone, executable package of software that includes everything needed to run an application.",
+      "A virtual machine.",
+      "A type of database.",
+      "A tool for managing Git repositories."
+    ],
+    "correctIndex": 0
+  },
+  {
+    "competency": "Deployment (CI/CD, Heroku/Vercel)",
+    "level": "C2",
+    "text": "What is the difference between Platform as a Service (PaaS) like Heroku and Infrastructure as a Service (IaaS) like AWS EC2?",
+    "options": [
+      "There is no difference, they are the same.",
+      "PaaS provides a complete environment, abstracting the infrastructure. IaaS gives you more control over the underlying infrastructure.",
+      "PaaS is for front-end, IaaS is for back-end.",
+      "PaaS is more expensive than IaaS."
+    ],
+    "correctIndex": 1
+  },
+  {
+    "competency": "Web Sockets",
+    "level": "A1",
+    "text": "What is the main advantage of WebSockets over traditional HTTP?",
+    "options": [
+      "They are more secure.",
+      "They allow for persistent, bidirectional communication between a client and a server.",
+      "They are faster for one-time requests.",
+      "They are used for static file serving."
+    ],
+    "correctIndex": 1
+  },
+  {
+    "competency": "Web Sockets",
+    "level": "A2",
+    "text": "When should you use WebSockets?",
+    "options": [
+      "For a simple webpage with no dynamic content.",
+      "For applications that require real-time, two-way communication (e.g., chat apps).",
+      "For fetching data from a REST API.",
+      "For a blog post."
+    ],
+    "correctIndex": 1
+  },
+  {
+    "competency": "Web Sockets",
+    "level": "B1",
+    "text": "What protocol does WebSockets use?",
+    "options": [
+      "HTTP",
+      "TCP",
+      "UDP",
+      "FTP"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "competency": "Web Sockets",
+    "level": "B2",
+    "text": "What is a common Node.js library for implementing WebSockets?",
+    "options": [
+      "Express.js",
+      "Socket.IO",
+      "React.js",
+      "Mongoose"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "competency": "Web Sockets",
+    "level": "C1",
+    "text": "How does a WebSocket connection start?",
+    "options": [
+      "With a GET request to the server.",
+      "With a special 'handshake' request over HTTP, which then 'upgrades' the connection.",
+      "With a POST request to the server.",
+      "With a direct TCP connection from the browser."
+    ],
+    "correctIndex": 1
+  },
+  {
+    "competency": "Web Sockets",
+    "level": "C2",
+    "text": "What is 'polling' and how does it differ from WebSockets?",
+    "options": [
+      "Polling is a type of WebSocket. There is no difference.",
+      "Polling is when the client repeatedly sends requests to the server, while WebSockets maintain a persistent, open connection.",
+      "Polling is a security measure for WebSockets.",
+      "Polling is a way to compress data."
+    ],
+    "correctIndex": 1
+  },
+  {
+    "competency": "Performance Optimization",
+    "level": "A1",
+    "text": "What is a simple way to improve website loading speed?",
+    "options": [
+      "Using larger images.",
+      "Using a single, large CSS file.",
+      "Minifying CSS and JavaScript files.",
+      "Using more fonts."
+    ],
+    "correctIndex": 2
+  },
+  {
+    "competency": "Performance Optimization",
+    "level": "A2",
+    "text": "What is 'lazy loading'?",
+    "options": [
+      "Loading all content at once when the page loads.",
+      "Loading images and other resources only when they are about to be visible in the viewport.",
+      "A technique for slowing down the website.",
+      "A type of CSS animation."
+    ],
+    "correctIndex": 1
+  },
+  {
+    "competency": "Performance Optimization",
+    "level": "B1",
+    "text": "What is the purpose of a 'Content Delivery Network' (CDN)?",
+    "options": [
+      "To create a new website.",
+      "To manage your Git repository.",
+      "To store your database.",
+      "To serve content from servers located closer to the user, reducing latency."
+    ],
+    "correctIndex": 3
+  },
+  {
+    "competency": "Performance Optimization",
+    "level": "B2",
+    "text": "What is 'caching' in web development?",
+    "options": [
+      "A way to slow down a server.",
+      "The process of storing copies of files or data in a temporary location for faster access.",
+      "A method for securing a website.",
+      "A type of database."
+    ],
+    "correctIndex": 1
+  },
+  {
+    "competency": "Performance Optimization",
+    "level": "C1",
+    "text": "What is the main goal of 'tree shaking' in JavaScript bundlers like Webpack?",
+    "options": [
+      "To remove unnecessary comments from the code.",
+      "To remove unused or dead code from the final bundle.",
+      "To minify the code.",
+      "To format the code with a linter."
+    ],
+    "correctIndex": 1
+  },
+  {
+    "competency": "Performance Optimization",
+    "level": "C2",
+    "text": "What is 'debounce' and when would you use it?",
+    "options": [
+      "A function that delays the execution of a callback until a certain amount of time has passed without another event.",
+      "A function that executes a callback immediately and then waits for a certain amount of time before allowing another execution.",
+      "A method for making an API call.",
+      "A way to remove event listeners from an element."
+    ],
+    "correctIndex": 0
+  },
+  {
+    "competency": "Advanced Node.js & Microservices",
+    "level": "A1",
+    "text": "What is the event loop in Node.js?",
+    "options": [
+      "A loop that runs synchronously.",
+      "A loop that processes the message queue and handles I/O operations.",
+      "A loop for iterating over arrays.",
+      "A loop that runs on the browser."
+    ],
+    "correctIndex": 1
+  },
+  {
+    "competency": "Advanced Node.js & Microservices",
+    "level": "A2",
+    "text": "What is the main characteristic of Node.js that makes it suitable for real-time applications?",
+    "options": [
+      "It is multi-threaded.",
+      "Its non-blocking, event-driven architecture.",
+      "It can only handle one request at a time.",
+      "It is a compiled language."
+    ],
+    "correctIndex": 1
+  },
+  {
+    "competency": "Advanced Node.js & Microservices",
+    "level": "B1",
+    "text": "What is a 'microservice'?",
+    "options": [
+      "A small piece of code that runs on the front-end.",
+      "A single, large application that handles all functionality.",
+      "An architectural style where a single application is composed of many small, independently deployable services.",
+      "A small database."
+    ],
+    "correctIndex": 2
+  },
+  {
+    "competency": "Advanced Node.js & Microservices",
+    "level": "B2",
+    "text": "What is a key benefit of using a microservices architecture?",
+    "options": [
+      "It is easier to manage a single large codebase.",
+      "It improves fault isolation, making the system more resilient.",
+      "It requires a single programming language.",
+      "It makes the application run faster."
+    ],
+    "correctIndex": 1
+  },
+  {
+    "competency": "Advanced Node.js & Microservices",
+    "level": "C1",
+    "text": "What is the purpose of a 'message queue' (e.g., RabbitMQ, Redis) in a microservices architecture?",
+    "options": [
+      "To store data for the application.",
+      "To enable asynchronous communication between different services.",
+      "To handle synchronous requests.",
+      "To manage user authentication."
+    ],
+    "correctIndex": 1
+  },
+  {
+    "competency": "Advanced Node.js & Microservices",
+    "level": "C2",
+    "text": "What is a 'load balancer' and why is it used?",
+    "options": [
+      "A device that balances the power supply to the servers.",
+      "A server that distributes incoming network traffic across multiple backend servers to ensure no single server is overloaded.",
+      "A tool for balancing the size of the database.",
+      "A type of firewall."
+    ],
+    "correctIndex": 1
+  }
+]

@@ -1,0 +1,67 @@
+.thankyou-container {
+  max-width: 800px;
+  margin: 3rem auto;
+  padding: 2rem;
+  background: linear-gradient(135deg, #f0f4ff, #ffffff);
+  border-radius: 16px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+  text-align: center;
+  animation: fadeIn 0.8s ease-in-out;
+}
+
+.thankyou-title {
+  font-size: 2.2rem;
+  font-weight: bold;
+  color: #4f46e5;
+  margin-bottom: 1rem;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.1);
+}
+
+.thankyou-message {
+  font-size: 1.2rem;
+  color: #374151;
+  margin-bottom: 2rem;
+}
+
+.thankyou-btns {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.thankyou-btn {
+  background: linear-gradient(145deg, #10b981, #059669);
+  color: white;
+  padding: 0.8rem 1.6rem;
+  font-size: 1rem;
+  font-weight: bold;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  box-shadow: 4px 4px 10px rgba(0,0,0,0.15);
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.thankyou-btn:hover {
+  transform: translateY(-3px);
+  box-shadow: 6px 6px 14px rgba(0,0,0,0.2);
+}
+
+.thankyou-btn.secondary {
+  background: linear-gradient(145deg, #3b82f6, #2563eb);
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@media (max-width: 640px) {
+  .thankyou-title {
+    font-size: 1.8rem;
+  }
+  .thankyou-message {
+    font-size: 1rem;
+  }
+}
