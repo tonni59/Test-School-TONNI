@@ -47,6 +47,14 @@ app.get("/", (req, res) => {
   res.send("✅ Backend is running successfully 🚀");
 });
 
+app.use(
+  cors({
+    origin: process.env.FRONTEND_URL || "*", // allow Vercel URL
+    credentials: true,
+  })
+);
+
+
 // ==== Serve Frontend in Production (Optional) ====
 // If you deploy frontend + backend together on Render:
 if (process.env.NODE_ENV === "production") {
